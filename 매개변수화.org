@@ -1,0 +1,21 @@
+#+title: 매개변수화
+
+* 매개변수화
+: 복사와 붙여넣기 문제 해결
+** 제어 흐름의 매개변수화
+*** 고차 함수(Higher-order function)
+*** 클로저(Closures)
+*** 모나드(Monad)
+** 데이터 구조의 매개변수화
+*** 다형성(Polymorphism)
+**** 매개변수 다형성(Parametric Polymorphism)
+: 다양한 타입을 수용할 수 있는 데이터 구조 정의
+- 제네릭(Generics) in Rust, Java, ...
+- 타입 변수(Type Variables) in Haskell
+- 타입 매개변수(Type Parameters) in Haskell
+**** 임시 다형성(Ad-hoc Polymorphism)
+: 데이터 구조에서 필요한 동작을 매개변수화
+: 제네릭 타입에 특정 동작을 부여
+- 트레이트(Trait) in Rust
+- 타입 클래스(Type Classes) in Haskell
+- 인터페이스(Interface) in Java
