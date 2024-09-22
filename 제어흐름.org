@@ -8,7 +8,6 @@
 *** 재귀 (Recursion)
 **** 불변성과 재귀적 데이터 구조 (Immutability and Recursion Data Structures)
 *** 패턴 매칭 (Pattern Matching)
-*** 모나드 (Monad)
 *** 커링 (Curring)
 *** 게으른 평가 (Lazy Evaludation)
 *** 비동기 흐름 제어 (Asynchronus Control Flow)
