@@ -1,0 +1,23 @@
+#+title: 제어흐름
+
+* 제어흐름 (Control Flow)
+** 함수형 프로그래밍 언어에서 제어흐름
+*** 함수 (Functions)
+**** 순수 함수와 함수 합성(Pure Functions and Function Composition)
+**** 함수적 반복 (Functional Iteration)
+*** 재귀 (Recursion)
+**** 불변성과 재귀적 데이터 구조 (Immutability and Recursion Data Structures)
+*** 패턴 매칭 (Pattern Matching)
+*** 모나드 (Monad)
+*** 커링 (Curring)
+*** 게으른 평가 (Lazy Evaludation)
+*** 비동기 흐름 제어 (Asynchronus Control Flow)
+*** 트램폴린 (Trampolining)
+** 절차적, 객체지향 언어에서 제어흐름
+*** 조건문 (Conditional Statements)
+*** 반복문 (Loops)
+*** 반복 제어 (Loop Ccontrol)
+*** 함수/메서드 호출 (Function/Method Calls)
+*** 예외 처리 (Exception Handling)
+*** 비동기 흐름 제어 (Asynchronous Control Flow)
+*** 병렬 처리 (Concurrency)
