@@ -1,0 +1,6 @@
+* 값 (Value)
+** 상징적 값
+| Language | 표현   |
+|----------+--------|
+| Elixir   | Atom   |
+| LISP     | Symbol |
