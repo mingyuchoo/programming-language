@@ -2,7 +2,7 @@
 
 * 데이터 구조(Data Structure)
 ** 타입(Types) in Haskell
-*** 합 타입(Sum Type)
+*** 합 타입(Sum Type, a.k.a Union Type)
 - 열거체(Enums) in Rust
 *** 곱 타입(Product Type)
 - 구조체(Structs) in Rust
