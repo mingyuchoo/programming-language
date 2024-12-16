@@ -20,7 +20,7 @@ let divide x y =
   | _ -> Ok (x / y)
 
 (**)
-let add_one x = Ok (x + 1)
+let add_one (x : int) = Ok (x + 1)
 
 (**)
 let multiply_by_two x = Ok (x * 2)
