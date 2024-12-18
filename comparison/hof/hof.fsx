@@ -1,0 +1,19 @@
+// ////////////////////////////////////////////////////////////////////////////
+// dotnet fsi hof.fsx
+// ////////////////////////////////////////////////////////////////////////////
+
+
+// Function to apply a function twice
+let applyTwice f x = f (f x)
+
+// Main fuction
+let main argv =
+    applyTwice (fun x -> x + 3) 10
+    |> printfn "%d"
+
+    0 // Return exit code
+
+// Apply
+[<EntryPoint>]
+main [||]
+
