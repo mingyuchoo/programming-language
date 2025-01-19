@@ -1,0 +1,38 @@
+* 평가종류
+1. 엄격평가 (Strict Evaluation)
+2. 지연평가 (Lazy Evaluation)
+** 1. 엄격평가 (Strict Evaluation)
+- 엄격 평가는 표현식이 나타나는 즉시 평가함
+*** Rust
+#+begin_src rust
+  fn main() {
+    strict_evaluation_example();
+  }
+  fn strict_evaluation_example() {
+    let x1 = 2;
+    let x2 = 3;
+    let y = x1 + x2;
+    println!("y: {}", y);
+  }
+#+end_src
+** 2. 지연평가 (Lazy Evaluation)
+- 지연 평가는 표현식을 필요할 때마다 평가
+*** Rust
+- Rust에서 지연평가를 구현하려면 클로서를 사용
+#+begin_src rust
+  fn main() {
+    strict_evaluation_example();
+  }
+  fn strict_evaluation_example() {
+    // 지연 평가를 위한 클로저 정의
+    let expensive_computation = || {
+      println!("Performing expensive computation...");
+      2 + 3
+    };
+    // 클로저 호출 시점까지 평가를 지연함
+    println!("Before calling the closure");
+    let y = expensive_computation();
+    println!("After calling the closure, y: {}", y);
+  }
+#+end_src
+
